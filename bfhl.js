@@ -18,9 +18,7 @@ const isFileValid = (fileBase64) => {
 
 // GET method
 app.get('/bfhl', (req, res) => {
-    res.status(200).json({
-        operation_code: 1
-    });
+    res.status(200).json({ operation_code: 1 });
 });
 
 // POST method

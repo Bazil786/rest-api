@@ -1,17 +1,13 @@
 {
-  "name": "rest-api",
+  "name": "your-app-name",
   "version": "1.0.0",
-  "description": "",
   "main": "bfhl.js",
   "scripts": {
-    "start": "bfhl.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node bfhl.js",
+    "build": "echo 'No build step for this app.'"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.20.3",
-    "express": "^4.21.0"
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0"
   }
 }
